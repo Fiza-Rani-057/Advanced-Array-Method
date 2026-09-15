@@ -146,3 +146,13 @@ console.log(result6);
  console.log(index.indexOf(7));
 
 
+//  ================ reduce =====================
+//  sare element ko one by one process kr k ak single value return krta ha 
+
+
+ const array3 = [1200 , 5000  , 6000];
+ const result7 = array3.reduce((accumulator , currentValue)=>{
+   return accumulator + currentValue;
+ } , 8);
+
+ console.log(result7);
