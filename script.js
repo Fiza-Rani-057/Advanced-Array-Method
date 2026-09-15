@@ -199,6 +199,8 @@ console.log(result);
 
 
 // ======================.some()=======================
+//  method check karta hai ke array mein kam az kam ek element given condition ko 
+// satisfy karta hai ya nahi.
 const results = numbers.some((nums) => {
     return nums > 20;
 });
@@ -225,6 +227,8 @@ console.log(result);
 
 
 //  ====================.flatmap()======================
+//  method array ke elements par operation perform karke unke result ko ek
+//  single-level array mein convert karta hai.
 const arrays3 = [
     ["Alian", "Sana"],
     ["Hira", "Tania"],
