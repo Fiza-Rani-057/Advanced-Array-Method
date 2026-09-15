@@ -179,7 +179,7 @@ const arrResult = arrays.find((nums) => {
 console.log(arrResult);
 
 
-//  =================== .findLast====================
+//  =================== .findLast()====================
 // sb se ple last se jo value mily whi return krta ha 
 const arrays1 = ["ali", "Alina"];
 const arrResult1 = arrays1.findLast((e) => {
@@ -190,9 +190,26 @@ console.log(arrResult1);
 //   ==============.findIndex()===================
 // matching element ka index return krta ha 
 
-  let numbers1 = [10, 20, 30, 40];
+let numbers1 = [10, 20, 30, 40];
 
-   let result10 = numbers.findIndex(function(num) {
+let result10 = numbers.findIndex(function (num) {
     return num > 25;
 });
- console.log(result);
+console.log(result);
+
+
+// ======================.some()=======================
+const results = numbers.some((nums) => {
+    return nums > 20;
+});
+console.log(results);
+
+
+const marks1 = [30, 35, 25, 60];
+const results2 = marks.some((mark)=> {
+    return mark  > 30;
+});
+
+console.log(result);
+
+// ===========================.flat()============================
