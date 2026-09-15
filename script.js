@@ -213,3 +213,26 @@ const results2 = marks.some((mark)=> {
 console.log(result);
 
 // ===========================.flat()============================
+// nested array ko single array me convert krta ha.
+
+ const arrays2 = [
+   ["Alian" , "Sana"],
+   ["Hira" , "Tania"],
+   ["Alina" , "Dharia"]
+ ];
+ const arrResult2 = arrays2.flat()
+ console.log(arrResult2);
+
+
+//  ====================.flatmap()======================
+const arrays3 = [
+    ["Alian", "Sana"],
+    ["Hira", "Tania"],
+    ["Alina", "Dharia"]
+];
+
+const arrResult3 = arrays3.flatMap(function(e) {
+    return e;
+});
+
+console.log(arrResult3);
