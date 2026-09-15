@@ -97,92 +97,102 @@ console.log(prices);
 
 //  check krta ha array me koi specific value mojood ha ya nhi.
 
- const names2 = ["Ali" , "Shariq"];
- console.log(names2.includes("Sara"));
+const names2 = ["Ali", "Shariq"];
+console.log(names2.includes("Sara"));
 
- const names3 = [21 , 34];
- console.log(names3.includes(34));
+const names3 = [21, 34];
+console.log(names3.includes(34));
 
- const nums2 = [23 , 56 , 67];
- console.log(nums2.includes(67));
+const nums2 = [23, 56, 67];
+console.log(nums2.includes(67));
 
 
 //  ================== every()=======================
- 
+
 // har element ko check krta ha sare conditions k 
 // satisfy hony pr hi true return krta ha .
 
- const array2 = [21 , 45 , 90 , 48];
- const result5 = array2.every((num)=>{
+const array2 = [21, 45, 90, 48];
+const result5 = array2.every((num) => {
     return num < 10
- });
+});
 
- console.log(result5);
+console.log(result5);
 
- const marks = [70, 80, 65, 90];
- const result6 = marks.every((mark)=> {
+const marks = [70, 80, 65, 90];
+const result6 = marks.every((mark) => {
     return mark > 50;
 });
 
 console.log(result6);
 
 
- const ages = [10 , 40 , 70 , 35];
- const age = ages.every((age)=>{
-   return age > 12;
- });
- console.log(age);
+const ages = [10, 40, 70, 35];
+const age = ages.every((age) => {
+    return age > 12;
+});
+console.log(age);
 
 
 //  ============= indexOf =====================
 //  array ka index return krta ha 
 
- let index = [1 , 3 ,4, 6, 7];
+let index = [1, 3, 4, 6, 7];
 
- console.log(index.indexOf(4));
- console.log(index.indexOf(3));
- console.log(index.indexOf(6));
- console.log(index.indexOf(1));
- console.log(index.indexOf(7));
+console.log(index.indexOf(4));
+console.log(index.indexOf(3));
+console.log(index.indexOf(6));
+console.log(index.indexOf(1));
+console.log(index.indexOf(7));
 
 
 //  ================ reduce() =====================
 //  sare element ko one by one process kr k ak single value return krta ha 
 
 
- const array3 = [1200 , 5000  , 6000];
- const result7 = array3.reduce((accumulator , currentValue)=>{
-   return accumulator + currentValue;
- } , 8);
-
- console.log(result7);
-
- const array4 = [1000 , 4000];
- const result8 = array4.reduce((accumulator , currentValue)=>{
+const array3 = [1200, 5000, 6000];
+const result7 = array3.reduce((accumulator, currentValue) => {
     return accumulator + currentValue;
- } , 9);
- console.log(result8);
+}, 8);
 
- const array5 = [5000 , 6000];
- const result9 = array5.reduce((accumulator , currentValue)=>{
+console.log(result7);
+
+const array4 = [1000, 4000];
+const result8 = array4.reduce((accumulator, currentValue) => {
     return accumulator + currentValue;
- } , 70);
- console.log(result9);
+}, 9);
+console.log(result8);
+
+const array5 = [5000, 6000];
+const result9 = array5.reduce((accumulator, currentValue) => {
+    return accumulator + currentValue;
+}, 70);
+console.log(result9);
 
 //  ==================== .find()=====================
 //  plehla matching element return krta ha 
 
- const arrays = [21 , 45 , 68 , 76];
- const arrResult = arrays.find((nums)=>{
-   return nums > 20;
- });
- console.log(arrResult);
+const arrays = [21, 45, 68, 76];
+const arrResult = arrays.find((nums) => {
+    return nums > 20;
+});
+console.log(arrResult);
 
 
 //  =================== .findLast====================
 // sb se ple last se jo value mily whi return krta ha 
- const arrays1 = ["ali" , "Alina"];
-  const arrResult1 = arrays1.findLast((e)=>{
+const arrays1 = ["ali", "Alina"];
+const arrResult1 = arrays1.findLast((e) => {
     return e.length > 1;
-  });
-  console.log(arrResult1);
+});
+console.log(arrResult1);
+
+//   ==============.findIndex()===================
+// matching element ka index return krta ha 
+
+  let numbers1 = [10, 20, 30, 40];
+
+   let result10 = numbers.findIndex(function(num) {
+    return num > 25;
+});
+ console.log(result);
