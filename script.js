@@ -14,4 +14,10 @@
   arr2.forEach((e)=>{
    console.log(e);
   });
-  
+
+
+  const name = ["Ali" , "Sajid" , "Sadia"];
+
+  name.forEach((Name)=>{
+    console.log(Name);
+  });
