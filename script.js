@@ -132,3 +132,17 @@ console.log(result6);
    return age > 12;
  });
  console.log(age);
+
+
+//  ============= indexOf =====================
+//  array ka index return krta ha 
+
+ let index = [1 , 3 ,4, 6, 7];
+
+ console.log(index.indexOf(4));
+ console.log(index.indexOf(3));
+ console.log(index.indexOf(6));
+ console.log(index.indexOf(1));
+ console.log(index.indexOf(7));
+
+
