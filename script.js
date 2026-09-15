@@ -105,3 +105,24 @@ console.log(prices);
 
  const nums2 = [23 , 56 , 67];
  console.log(nums2.includes(67));
+
+
+//  ================== every()=======================
+ 
+// har element ko check krta ha sare conditions k 
+// satisfy hony pr hi true return krta ha .
+
+ const array2 = [21 , 45 , 90 , 48];
+ const result5 = array2.every((num)=>{
+    return num < 10
+ });
+
+ console.log(result5);
+
+ const marks = [70, 80, 65, 90];
+
+ const result6 = marks.every((mark)=> {
+    return mark > 50;
+});
+
+console.log(result);
