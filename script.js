@@ -146,7 +146,7 @@ console.log(result6);
  console.log(index.indexOf(7));
 
 
-//  ================ reduce =====================
+//  ================ reduce() =====================
 //  sare element ko one by one process kr k ak single value return krta ha 
 
 
@@ -168,3 +168,21 @@ console.log(result6);
     return accumulator + currentValue;
  } , 70);
  console.log(result9);
+
+//  ==================== .find()=====================
+//  plehla matching element return krta ha 
+
+ const arrays = [21 , 45 , 68 , 76];
+ const arrResult = arrays.find((nums)=>{
+   return nums > 20;
+ });
+ console.log(arrResult);
+
+
+//  =================== .findLast====================
+// sb se ple last se jo value mily whi return krta ha 
+ const arrays1 = ["ali" , "Alina"];
+  const arrResult1 = arrays1.findLast((e)=>{
+    return e.length > 1;
+  });
+  console.log(arrResult1);
