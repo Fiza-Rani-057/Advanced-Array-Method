@@ -73,3 +73,22 @@ const numbers = num.filter((num) => {
  });
 
  console.log(result4);
+
+
+//  =================.sort()=================
+
+//  array k elemets ko ak specific order me arrange krta ha.
+
+const Names = ['Alina' , 'Ayesha' , 'Sana' , 'Alisha'];
+   Names.sort();
+   console.log(Names);
+
+
+   const nums = [12 , 45 , 67 , 89, 20];
+   nums.sort();
+   console.log(nums);
+
+   const prices = [1500 , 3000 , 9000 , 7000];
+
+   prices.sort();
+   console.log(prices);
