@@ -65,30 +65,43 @@ const numbers = num.filter((num) => {
     return num > 30;
 });
 
- console.log(numbers);
+console.log(numbers);
 
- const names = ["Ali" , "Sara" , "Sana" , "Ahmed" , "Sajid"];
- const result4 = names.filter((names)=>{
+const names = ["Ali", "Sara", "Sana", "Ahmed", "Sajid"];
+const result4 = names.filter((names) => {
     return names.length > 4;
- });
+});
 
- console.log(result4);
+console.log(result4);
 
 
 //  =================.sort()=================
 
 //  array k elemets ko ak specific order me arrange krta ha.
 
-const Names = ['Alina' , 'Ayesha' , 'Sana' , 'Alisha'];
-   Names.sort();
-   console.log(Names);
+const Names = ['Alina', 'Ayesha', 'Sana', 'Alisha'];
+Names.sort();
+console.log(Names);
 
 
-   const nums = [12 , 45 , 67 , 89, 20];
-   nums.sort();
-   console.log(nums);
+const nums = [12, 45, 67, 89, 20];
+nums.sort();
+console.log(nums);
 
-   const prices = [1500 , 3000 , 9000 , 7000];
+const prices = [1500, 3000, 9000, 7000];
 
-   prices.sort();
-   console.log(prices);
+prices.sort();
+console.log(prices);
+
+//  ================== includes() ====================
+
+//  check krta ha array me koi specific value mojood ha ya nhi.
+
+ const names2 = ["Ali" , "Shariq"];
+ console.log(names2.includes("Sara"));
+
+ const names3 = [21 , 34];
+ console.log(names3.includes(34));
+
+ const nums2 = [23 , 56 , 67];
+ console.log(nums2.includes(67));
