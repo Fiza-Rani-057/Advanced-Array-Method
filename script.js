@@ -120,9 +120,15 @@ console.log(prices);
  console.log(result5);
 
  const marks = [70, 80, 65, 90];
-
  const result6 = marks.every((mark)=> {
     return mark > 50;
 });
 
-console.log(result);
+console.log(result6);
+
+
+ const ages = [10 , 40 , 70 , 35];
+ const age = ages.every((age)=>{
+   return age > 12;
+ });
+ console.log(age);
