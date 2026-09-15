@@ -156,3 +156,15 @@ console.log(result6);
  } , 8);
 
  console.log(result7);
+
+ const array4 = [1000 , 4000];
+ const result8 = array4.reduce((accumulator , currentValue)=>{
+    return accumulator + currentValue;
+ } , 9);
+ console.log(result8);
+
+ const array5 = [5000 , 6000];
+ const result9 = array5.reduce((accumulator , currentValue)=>{
+    return accumulator + currentValue;
+ } , 70);
+ console.log(result9);
